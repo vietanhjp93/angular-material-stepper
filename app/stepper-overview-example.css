@@ -1,9 +1,12 @@
 ::ng-deep .mat-horizontal-stepper-header {
   pointer-events: none !important;
 }
+::ng-deep .mat-step-header[aria-selected="true"] {
+  background-color: blue;
+}
+
 ::ng-deep .mat-stepper-horizontal .mat-step-header {
   padding: 0px;
-  background-color: blue;
   height: 20px;
   user-select: none;
   min-width: 0px;
